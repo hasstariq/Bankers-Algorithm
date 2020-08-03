@@ -18,6 +18,8 @@ Use the following commands:<br />
 
 ## Screenshots
 
+Screenshots of the output when you run the banker algorithm 
+
 ![116703205_669748266952238_1900193934918184228_n](https://user-images.githubusercontent.com/68686454/89142456-7d36e300-d515-11ea-89af-7ec249cb895d.png)
 ![116707600_294124071696544_4101753528784093319_n](https://user-images.githubusercontent.com/68686454/89142460-7f00a680-d515-11ea-84c7-8f1789792e1d.png)
 ![116914386_312552890119142_4418454379164060021_n](https://user-images.githubusercontent.com/68686454/89142462-8031d380-d515-11ea-90bc-a261caa1bc39.png)
