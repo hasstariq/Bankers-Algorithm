@@ -5,6 +5,12 @@ CP 386 Assignment 4
 Submitted by: 
 Ravjot Singh (181730940)
 Hassan Tariq (170930500)
+
+Git usernames: 
+hasstariq
+ravj0809
+
+
 https://github.com/rav0809/CP386_A4
 ------------------------------
 */
@@ -34,6 +40,9 @@ void *threadRun(void *thread);
 int *safetySeq();
 void dataOne(int *data, int x);         // single pointer data
 void dataMul(int **data, int x, int y); // double pointer dadta
+
+
+//Main 
 
 int main(int argc, char *argv[])
 {
@@ -266,6 +275,9 @@ int main(int argc, char *argv[])
     }
     return 0; 
 }
+
+// Opening and reading the file
+
 int **fileRead(char *readFile)
 {
     FILE *file = fopen(readFile, "r");
@@ -327,6 +339,7 @@ int **fileRead(char *readFile)
     return maximum;
 }
 
+// 
 void *threadRun(void *trh)
 {
    int *threadId = (int *)trh; // thread id
@@ -375,6 +388,7 @@ void *threadRun(void *trh)
    pthread_exit(NULL);
 }
 
+//safertSeq function
 int *safetySeq(){   // function is used to contain safety algroithm that will be used when calling parts of program
 
     int *done = malloc(customer* sizeof(int) );
@@ -439,6 +453,7 @@ int *safetySeq(){   // function is used to contain safety algroithm that will be
 	//printf("Sequence %d", sequence[0]);
     return sequence;
 }
+
 
 void dataOne(int *data, int x)
 {
