@@ -454,5 +454,27 @@ int *safetySeq(){   // function is used to contain safety algroithm that will be
     return sequence;
 }
 
+void dataOne(int *data, int x)
+{
+    for (int i = 0; i < x; i++){
+        printf("%d", data[i]);
+        if ( i < x -1)
+            printf(" ");
+    }
+    printf("\n");
+}
+
+void dataMul(int **data, int x, int y)
+{
+    for (int i = 0; i < x; i ++){
+        for (int j = 0; j < y; j ++){
+            printf("%d", data[i][j]);
+            if(j < y -1)
+                printf(" ");
+        }
+        printf("\n");
+    }
+}
+
 
 
