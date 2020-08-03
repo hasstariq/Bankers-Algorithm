@@ -9,10 +9,10 @@ This is for cp386 Operating Systems Assignment 4
 ## Steps to run
 
 Make sure the Makefile, Source File and Sample File are in the same directory. 
-Use the following commands:
-"mv Makefile.mk makefile"
-"make warnings_OK"
-"./main 10 10 10 10"
+Use the following commands:<br />
+"mv Makefile.mk makefile"<br />
+"make warnings_OK"<br />
+"./main 10 10 10 10"<br />
 (Any value for resources can be used instead of 10)
 
 
@@ -25,7 +25,7 @@ Hassan Tariq implemented these functions
 Ravjot Singh Implemented these functions 
 
 ## Author
-Hassan Tariq
+Hassan Tariq<br />
 Ravjot Singh
 
 ## 
